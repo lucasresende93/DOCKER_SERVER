@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
-    "dev": "npx tsx -w & nodemon dist/index.js",
-    "start": "nodemon index.ts"
+    "dev": "npx tsx -w & nodemon ./index.ts",
+    "start": "nodemon ./index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,6 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.3"
+    "nodemon": "^3.1.4"
   }
 }
